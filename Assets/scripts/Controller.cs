@@ -16,8 +16,8 @@ public class Controller : MonoBehaviour
     [SerializeField] GameObject dot;
     double[] values;
     GameObject[] dots;
-    Vector2 coordinatesCenter = new Vector2(-162.8f, -50.47f);
-    (float,float) enhance = (3.5f, 3.5f * 40);
+    Vector2 coordinatesCenter = new Vector2(-155.2f, -45.4f);
+    (float,float) enhance = (3.5f, 3.5f * 37.5f);
 
     public void Calculate(bool graph = true)
     {
